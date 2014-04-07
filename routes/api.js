@@ -3,7 +3,8 @@ module.exports = {
     register: function(req, res){
         console.log(req);
         res.json({
-            'success': true
+            'success': true,
+            'accountId': '12345'
         })
     }
 
